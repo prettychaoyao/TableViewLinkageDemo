@@ -31,8 +31,8 @@
 - (void)configData {
     
     self.dataArr = @[].mutableCopy;
-    for (int i=0; i < 20; i++) {
-        NSString *titleAtr = [NSString stringWithFormat:@"第%d类", i];
+    for (int i=0; i < arc4random()%10 + 18; i++) {
+        NSString *titleAtr = [NSString stringWithFormat:@"第%d栏", i];
         [self.dataArr addObject:titleAtr];
     }
 }
@@ -44,6 +44,7 @@
     self.leftTableView.delegate = self;
     self.leftTableView.dataSource = self;
     self.leftTableView.showsVerticalScrollIndicator = NO;
+    self.leftTableView.tableFooterView = [UIView new];
     [self.view addSubview:self.leftTableView];
 }
 

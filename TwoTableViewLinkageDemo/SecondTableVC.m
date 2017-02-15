@@ -36,6 +36,7 @@
     self.detailTableView.delegate = self;
     self.detailTableView.dataSource = self;
     self.detailTableView.showsVerticalScrollIndicator = NO;
+    self.detailTableView.tableFooterView = [UIView new];
     [self.view addSubview:self.detailTableView];
 }
 
