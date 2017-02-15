@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TwoTableViewLinkageDemo.xcodeproj">
+      location = "self:/Users/Jobs/Documents/workplace/TableViewLinkageDemo/TableViewLinkageDemo.xcodeproj">
    </FileRef>
 </Workspace>

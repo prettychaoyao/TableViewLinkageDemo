@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7D15F211E54293400BDC3A0"
-               BuildableName = "TwoTableViewLinkageDemo.app"
-               BlueprintName = "TwoTableViewLinkageDemo"
-               ReferencedContainer = "container:TwoTableViewLinkageDemo.xcodeproj">
+               BuildableName = "TableViewLinkageDemo.app"
+               BlueprintName = "TableViewLinkageDemo"
+               ReferencedContainer = "container:TableViewLinkageDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7D15F3A1E54293400BDC3A0"
-               BuildableName = "TwoTableViewLinkageDemoTests.xctest"
-               BlueprintName = "TwoTableViewLinkageDemoTests"
-               ReferencedContainer = "container:TwoTableViewLinkageDemo.xcodeproj">
+               BuildableName = "TableViewLinkageDemoTests.xctest"
+               BlueprintName = "TableViewLinkageDemoTests"
+               ReferencedContainer = "container:TableViewLinkageDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7D15F451E54293400BDC3A0"
-               BuildableName = "TwoTableViewLinkageDemoUITests.xctest"
-               BlueprintName = "TwoTableViewLinkageDemoUITests"
-               ReferencedContainer = "container:TwoTableViewLinkageDemo.xcodeproj">
+               BuildableName = "TableViewLinkageDemoUITests.xctest"
+               BlueprintName = "TableViewLinkageDemoUITests"
+               ReferencedContainer = "container:TableViewLinkageDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7D15F211E54293400BDC3A0"
-            BuildableName = "TwoTableViewLinkageDemo.app"
-            BlueprintName = "TwoTableViewLinkageDemo"
-            ReferencedContainer = "container:TwoTableViewLinkageDemo.xcodeproj">
+            BuildableName = "TableViewLinkageDemo.app"
+            BlueprintName = "TableViewLinkageDemo"
+            ReferencedContainer = "container:TableViewLinkageDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7D15F211E54293400BDC3A0"
-            BuildableName = "TwoTableViewLinkageDemo.app"
-            BlueprintName = "TwoTableViewLinkageDemo"
-            ReferencedContainer = "container:TwoTableViewLinkageDemo.xcodeproj">
+            BuildableName = "TableViewLinkageDemo.app"
+            BlueprintName = "TableViewLinkageDemo"
+            ReferencedContainer = "container:TableViewLinkageDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7D15F211E54293400BDC3A0"
-            BuildableName = "TwoTableViewLinkageDemo.app"
-            BlueprintName = "TwoTableViewLinkageDemo"
-            ReferencedContainer = "container:TwoTableViewLinkageDemo.xcodeproj">
+            BuildableName = "TableViewLinkageDemo.app"
+            BlueprintName = "TableViewLinkageDemo"
+            ReferencedContainer = "container:TableViewLinkageDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
