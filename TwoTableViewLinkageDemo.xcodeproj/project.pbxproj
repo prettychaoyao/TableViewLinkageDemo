@@ -15,6 +15,7 @@
 		E7D15F351E54293400BDC3A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D15F331E54293400BDC3A0 /* LaunchScreen.storyboard */; };
 		E7D15F401E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F3F1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.m */; };
 		E7D15F4B1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F4A1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m */; };
+		E7D15F5D1E542D3300BDC3A0 /* SecondTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F5C1E542D3300BDC3A0 /* SecondTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E7D15F461E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoTableViewLinkageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D15F4A1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewLinkageDemoUITests.m; sourceTree = "<group>"; };
 		E7D15F4C1E54293400BDC3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D15F5B1E542D3300BDC3A0 /* SecondTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableVC.h; sourceTree = "<group>"; };
+		E7D15F5C1E542D3300BDC3A0 /* SecondTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				E7D15F2B1E54293400BDC3A0 /* ViewController.h */,
 				E7D15F2C1E54293400BDC3A0 /* ViewController.m */,
 				E7D15F2E1E54293400BDC3A0 /* Main.storyboard */,
+				E7D15F5B1E542D3300BDC3A0 /* SecondTableVC.h */,
+				E7D15F5C1E542D3300BDC3A0 /* SecondTableVC.m */,
 				E7D15F311E54293400BDC3A0 /* Assets.xcassets */,
 				E7D15F331E54293400BDC3A0 /* LaunchScreen.storyboard */,
 				E7D15F361E54293400BDC3A0 /* Info.plist */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D15F2D1E54293400BDC3A0 /* ViewController.m in Sources */,
+				E7D15F5D1E542D3300BDC3A0 /* SecondTableVC.m in Sources */,
 				E7D15F2A1E54293400BDC3A0 /* AppDelegate.m in Sources */,
 				E7D15F271E54293400BDC3A0 /* main.m in Sources */,
 			);
