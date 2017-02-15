@@ -25,7 +25,7 @@
     self.isScrollUp = NO;
     self.lastOffsetY = 0;
     
-    self.dataArr = @[@"鞋子",@"衣服",@"化妆品",@"饮用水",@"副食品",@"小吃",@"鞋子",@"衣服",@"化妆品",@"饮用水"];
+    self.dataArr = @[@"海贼王", @"蒙奇·D·路飞", @"波雅·汉库克", @"娜美酱", @"Robin酱", @"薇薇酱", @"克尔拉", @"可雅", @"达斯琪", @"蕾贝卡", @"卡莉法", @"baby5"];
     [self createTableView];
 }
 
