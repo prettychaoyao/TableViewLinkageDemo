@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) UITableView *detailTableView;
 @property (nonatomic, strong) NSArray *dataArr;
-@property (nonatomic, assign) BOOL isScrollUp;
+@property (nonatomic, assign) BOOL scrollUp;
 @property (atomic, assign) CGFloat lastOffsetY;
 
 @end
@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.isScrollUp = NO;
+    self.scrollUp = NO;
     self.lastOffsetY = 0;
     
     self.dataArr = @[@"海贼王", @"蒙奇·D·路飞", @"波雅·汉库克", @"娜美酱", @"Robin酱", @"薇薇酱", @"克尔拉", @"可雅", @"达斯琪", @"蕾贝卡", @"卡莉法", @"baby5"];
@@ -82,7 +82,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
     
-    if ([self.secondTableDelegate respondsToSelector:@selector(willDispalyHeaderViewForSection:)] && !self.isScrollUp) {
+    if ([self.secondTableDelegate respondsToSelector:@selector(willDispalyHeaderViewForSection:)] && !self.scrollUp) {
         [self.secondTableDelegate willDispalyHeaderViewForSection:section];
     }
     
@@ -90,7 +90,7 @@
 
 - (void)tableView:(UITableView *)tableView didEndDisplayingHeaderView:(UIView *)view forSection:(NSInteger)section {
     
-    if ([self.secondTableDelegate respondsToSelector:@selector(didEndDisplayingHeaderViewForSection:)] && self.isScrollUp) {
+    if ([self.secondTableDelegate respondsToSelector:@selector(didEndDisplayingHeaderViewForSection:)] && self.scrollUp) {
         [self.secondTableDelegate didEndDisplayingHeaderViewForSection:section];
     }
 }
@@ -99,7 +99,7 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
-    self.isScrollUp = self.lastOffsetY < scrollView.contentOffset.y;
+    self.scrollUp = self.lastOffsetY < scrollView.contentOffset.y;
     self.lastOffsetY = scrollView.contentOffset.y;
 }
 
