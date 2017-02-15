@@ -13,8 +13,8 @@
 		E7D15F301E54293400BDC3A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D15F2E1E54293400BDC3A0 /* Main.storyboard */; };
 		E7D15F321E54293400BDC3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D15F311E54293400BDC3A0 /* Assets.xcassets */; };
 		E7D15F351E54293400BDC3A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D15F331E54293400BDC3A0 /* LaunchScreen.storyboard */; };
-		E7D15F401E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F3F1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.m */; };
-		E7D15F4B1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F4A1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m */; };
+		E7D15F401E54293400BDC3A0 /* TableViewLinkageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F3F1E54293400BDC3A0 /* TableViewLinkageDemoTests.m */; };
+		E7D15F4B1E54293400BDC3A0 /* TableViewLinkageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F4A1E54293400BDC3A0 /* TableViewLinkageDemoUITests.m */; };
 		E7D15F5D1E542D3300BDC3A0 /* SecondTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D15F5C1E542D3300BDC3A0 /* SecondTableVC.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E7D15F221E54293400BDC3A0 /* TwoTableViewLinkageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoTableViewLinkageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D15F221E54293400BDC3A0 /* TableViewLinkageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewLinkageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D15F261E54293400BDC3A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7D15F281E54293400BDC3A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7D15F291E54293400BDC3A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +46,11 @@
 		E7D15F311E54293400BDC3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7D15F341E54293400BDC3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7D15F361E54293400BDC3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7D15F3B1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoTableViewLinkageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D15F3F1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewLinkageDemoTests.m; sourceTree = "<group>"; };
+		E7D15F3B1E54293400BDC3A0 /* TableViewLinkageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLinkageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D15F3F1E54293400BDC3A0 /* TableViewLinkageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewLinkageDemoTests.m; sourceTree = "<group>"; };
 		E7D15F411E54293400BDC3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7D15F461E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoTableViewLinkageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D15F4A1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewLinkageDemoUITests.m; sourceTree = "<group>"; };
+		E7D15F461E54293400BDC3A0 /* TableViewLinkageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLinkageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D15F4A1E54293400BDC3A0 /* TableViewLinkageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewLinkageDemoUITests.m; sourceTree = "<group>"; };
 		E7D15F4C1E54293400BDC3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D15F5B1E542D3300BDC3A0 /* SecondTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableVC.h; sourceTree = "<group>"; };
 		E7D15F5C1E542D3300BDC3A0 /* SecondTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableVC.m; sourceTree = "<group>"; };
@@ -84,9 +84,9 @@
 		E7D15F191E54293400BDC3A0 = {
 			isa = PBXGroup;
 			children = (
-				E7D15F241E54293400BDC3A0 /* TwoTableViewLinkageDemo */,
-				E7D15F3E1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests */,
-				E7D15F491E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests */,
+				E7D15F241E54293400BDC3A0 /* TableViewLinkageDemo */,
+				E7D15F3E1E54293400BDC3A0 /* TableViewLinkageDemoTests */,
+				E7D15F491E54293400BDC3A0 /* TableViewLinkageDemoUITests */,
 				E7D15F231E54293400BDC3A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,14 +94,14 @@
 		E7D15F231E54293400BDC3A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7D15F221E54293400BDC3A0 /* TwoTableViewLinkageDemo.app */,
-				E7D15F3B1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.xctest */,
-				E7D15F461E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.xctest */,
+				E7D15F221E54293400BDC3A0 /* TableViewLinkageDemo.app */,
+				E7D15F3B1E54293400BDC3A0 /* TableViewLinkageDemoTests.xctest */,
+				E7D15F461E54293400BDC3A0 /* TableViewLinkageDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7D15F241E54293400BDC3A0 /* TwoTableViewLinkageDemo */ = {
+		E7D15F241E54293400BDC3A0 /* TableViewLinkageDemo */ = {
 			isa = PBXGroup;
 			children = (
 				E7D15F281E54293400BDC3A0 /* AppDelegate.h */,
@@ -116,7 +116,7 @@
 				E7D15F361E54293400BDC3A0 /* Info.plist */,
 				E7D15F251E54293400BDC3A0 /* Supporting Files */,
 			);
-			path = TwoTableViewLinkageDemo;
+			path = TableViewLinkageDemo;
 			sourceTree = "<group>";
 		};
 		E7D15F251E54293400BDC3A0 /* Supporting Files */ = {
@@ -127,30 +127,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E7D15F3E1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests */ = {
+		E7D15F3E1E54293400BDC3A0 /* TableViewLinkageDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E7D15F3F1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.m */,
+				E7D15F3F1E54293400BDC3A0 /* TableViewLinkageDemoTests.m */,
 				E7D15F411E54293400BDC3A0 /* Info.plist */,
 			);
-			path = TwoTableViewLinkageDemoTests;
+			path = TableViewLinkageDemoTests;
 			sourceTree = "<group>";
 		};
-		E7D15F491E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests */ = {
+		E7D15F491E54293400BDC3A0 /* TableViewLinkageDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E7D15F4A1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m */,
+				E7D15F4A1E54293400BDC3A0 /* TableViewLinkageDemoUITests.m */,
 				E7D15F4C1E54293400BDC3A0 /* Info.plist */,
 			);
-			path = TwoTableViewLinkageDemoUITests;
+			path = TableViewLinkageDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7D15F211E54293400BDC3A0 /* TwoTableViewLinkageDemo */ = {
+		E7D15F211E54293400BDC3A0 /* TableViewLinkageDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D15F4F1E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TwoTableViewLinkageDemo" */;
+			buildConfigurationList = E7D15F4F1E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemo" */;
 			buildPhases = (
 				E7D15F1E1E54293400BDC3A0 /* Sources */,
 				E7D15F1F1E54293400BDC3A0 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = TwoTableViewLinkageDemo;
+			name = TableViewLinkageDemo;
 			productName = TwoTableViewLinkageDemo;
-			productReference = E7D15F221E54293400BDC3A0 /* TwoTableViewLinkageDemo.app */;
+			productReference = E7D15F221E54293400BDC3A0 /* TableViewLinkageDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E7D15F3A1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests */ = {
+		E7D15F3A1E54293400BDC3A0 /* TableViewLinkageDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D15F521E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TwoTableViewLinkageDemoTests" */;
+			buildConfigurationList = E7D15F521E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoTests" */;
 			buildPhases = (
 				E7D15F371E54293400BDC3A0 /* Sources */,
 				E7D15F381E54293400BDC3A0 /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				E7D15F3D1E54293400BDC3A0 /* PBXTargetDependency */,
 			);
-			name = TwoTableViewLinkageDemoTests;
+			name = TableViewLinkageDemoTests;
 			productName = TwoTableViewLinkageDemoTests;
-			productReference = E7D15F3B1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.xctest */;
+			productReference = E7D15F3B1E54293400BDC3A0 /* TableViewLinkageDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E7D15F451E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests */ = {
+		E7D15F451E54293400BDC3A0 /* TableViewLinkageDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D15F551E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TwoTableViewLinkageDemoUITests" */;
+			buildConfigurationList = E7D15F551E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoUITests" */;
 			buildPhases = (
 				E7D15F421E54293400BDC3A0 /* Sources */,
 				E7D15F431E54293400BDC3A0 /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				E7D15F481E54293400BDC3A0 /* PBXTargetDependency */,
 			);
-			name = TwoTableViewLinkageDemoUITests;
+			name = TableViewLinkageDemoUITests;
 			productName = TwoTableViewLinkageDemoUITests;
-			productReference = E7D15F461E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.xctest */;
+			productReference = E7D15F461E54293400BDC3A0 /* TableViewLinkageDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E7D15F1D1E54293400BDC3A0 /* Build configuration list for PBXProject "TwoTableViewLinkageDemo" */;
+			buildConfigurationList = E7D15F1D1E54293400BDC3A0 /* Build configuration list for PBXProject "TableViewLinkageDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7D15F211E54293400BDC3A0 /* TwoTableViewLinkageDemo */,
-				E7D15F3A1E54293400BDC3A0 /* TwoTableViewLinkageDemoTests */,
-				E7D15F451E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests */,
+				E7D15F211E54293400BDC3A0 /* TableViewLinkageDemo */,
+				E7D15F3A1E54293400BDC3A0 /* TableViewLinkageDemoTests */,
+				E7D15F451E54293400BDC3A0 /* TableViewLinkageDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D15F401E54293400BDC3A0 /* TwoTableViewLinkageDemoTests.m in Sources */,
+				E7D15F401E54293400BDC3A0 /* TableViewLinkageDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D15F4B1E54293400BDC3A0 /* TwoTableViewLinkageDemoUITests.m in Sources */,
+				E7D15F4B1E54293400BDC3A0 /* TableViewLinkageDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		E7D15F3D1E54293400BDC3A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7D15F211E54293400BDC3A0 /* TwoTableViewLinkageDemo */;
+			target = E7D15F211E54293400BDC3A0 /* TableViewLinkageDemo */;
 			targetProxy = E7D15F3C1E54293400BDC3A0 /* PBXContainerItemProxy */;
 		};
 		E7D15F481E54293400BDC3A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7D15F211E54293400BDC3A0 /* TwoTableViewLinkageDemo */;
+			target = E7D15F211E54293400BDC3A0 /* TableViewLinkageDemo */;
 			targetProxy = E7D15F471E54293400BDC3A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,9 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TwoTableViewLinkageDemo/Info.plist;
+				INFOPLIST_FILE = TableViewLinkageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TwoTableViewLinkageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TableViewLinkageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,9 +441,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TwoTableViewLinkageDemo/Info.plist;
+				INFOPLIST_FILE = TableViewLinkageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TwoTableViewLinkageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TableViewLinkageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -452,11 +452,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TwoTableViewLinkageDemoTests/Info.plist;
+				INFOPLIST_FILE = TableViewLinkageDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TwoTableViewLinkageDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TableViewLinkageDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoTableViewLinkageDemo.app/TwoTableViewLinkageDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewLinkageDemo.app/TableViewLinkageDemo";
 			};
 			name = Debug;
 		};
@@ -464,40 +464,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TwoTableViewLinkageDemoTests/Info.plist;
+				INFOPLIST_FILE = TableViewLinkageDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TwoTableViewLinkageDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TableViewLinkageDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoTableViewLinkageDemo.app/TwoTableViewLinkageDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewLinkageDemo.app/TableViewLinkageDemo";
 			};
 			name = Release;
 		};
 		E7D15F561E54293400BDC3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TwoTableViewLinkageDemoUITests/Info.plist;
+				INFOPLIST_FILE = TableViewLinkageDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TwoTableViewLinkageDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TableViewLinkageDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TwoTableViewLinkageDemo;
+				TEST_TARGET_NAME = TableViewLinkageDemo;
 			};
 			name = Debug;
 		};
 		E7D15F571E54293400BDC3A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TwoTableViewLinkageDemoUITests/Info.plist;
+				INFOPLIST_FILE = TableViewLinkageDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TwoTableViewLinkageDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcy.TableViewLinkageDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TwoTableViewLinkageDemo;
+				TEST_TARGET_NAME = TableViewLinkageDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7D15F1D1E54293400BDC3A0 /* Build configuration list for PBXProject "TwoTableViewLinkageDemo" */ = {
+		E7D15F1D1E54293400BDC3A0 /* Build configuration list for PBXProject "TableViewLinkageDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7D15F4D1E54293400BDC3A0 /* Debug */,
@@ -506,29 +506,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7D15F4F1E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TwoTableViewLinkageDemo" */ = {
+		E7D15F4F1E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7D15F501E54293400BDC3A0 /* Debug */,
 				E7D15F511E54293400BDC3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E7D15F521E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TwoTableViewLinkageDemoTests" */ = {
+		E7D15F521E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7D15F531E54293400BDC3A0 /* Debug */,
 				E7D15F541E54293400BDC3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E7D15F551E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TwoTableViewLinkageDemoUITests" */ = {
+		E7D15F551E54293400BDC3A0 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7D15F561E54293400BDC3A0 /* Debug */,
 				E7D15F571E54293400BDC3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

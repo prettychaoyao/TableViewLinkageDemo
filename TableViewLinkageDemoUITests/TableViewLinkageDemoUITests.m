@@ -1,6 +1,6 @@
 //
-//  TwoTableViewLinkageDemoUITests.m
-//  TwoTableViewLinkageDemoUITests
+//  TableViewLinkageDemoUITests.m
+//  TableViewLinkageDemoUITests
 //
 //  Created by chaoyao on 2017/2/15.
 //  Copyright © 2017年 OneStore. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TwoTableViewLinkageDemoUITests : XCTestCase
+@interface TableViewLinkageDemoUITests : XCTestCase
 
 @end
 
-@implementation TwoTableViewLinkageDemoUITests
+@implementation TableViewLinkageDemoUITests
 
 - (void)setUp {
     [super setUp];

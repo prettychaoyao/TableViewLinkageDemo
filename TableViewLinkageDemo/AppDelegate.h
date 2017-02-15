@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  TwoTableViewLinkageDemo
+//  TableViewLinkageDemo
 //
 //  Created by chaoyao on 2017/2/15.
 //  Copyright © 2017年 OneStore. All rights reserved.
